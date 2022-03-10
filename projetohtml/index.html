@@ -56,6 +56,31 @@
         a {
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: 22px;
+        }        
+
+        .efeito {
+            border: none;
+            color: #eeede6;
+            padding: 2px 8px 2px 8px;
+            margin: 1px;
+            font-size: 24px;
+            line-height: 24px;
+            border-radius: 10px;
+            position: relative;
+            box-sizing: border-box;
+            cursor: pointer;
+            transition: all 400ms ease;
+            box-shadow: 0px 0px 5px black;
+        }
+
+        .efeito-1 {
+            background-color: #001c55;
+        }
+
+        .efeito-1:hover {
+            background: #93c2eb;
+            color: #001c55;
+            box-shadow: inset 0 0 0 3px #001c55;
         }
     </style>
 </head>
@@ -152,6 +177,10 @@
             <img src="./img/chuva2.jpg" alt="">
             <img src="./img/chuva3.jpg" alt="">
         </div>
+    </div>
+    <div>
+        <button id="avancar" class="efeito efeito-1">Avançar</button>
+        <button id="voltar" class="efeito efeito-1">Voltar</button>
     </div>
 </body>
 
