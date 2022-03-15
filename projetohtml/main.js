@@ -7,3 +7,16 @@ function bloco2(){
     document.getElementById('divPrimeira').style.display = 'none'
     document.getElementById('divSegunda').style.display = 'inline'
 }
+
+var teste = 0
+setInterval(piscar, 300)
+function piscar(){
+    if(teste<1){
+        teste++
+        document.getElementById('piscando').style.opacity = '1'
+    } else{
+        teste = 0
+        document.getElementById('piscando').style.opacity = '0'
+    }
+}
+
