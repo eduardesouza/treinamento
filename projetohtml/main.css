@@ -1,24 +1,24 @@
 body {
-    background-color: rgb(255, 220, 128);
+    background-color: #BEC5AD;
     width: 1200px;
     margin: 0 auto;
     text-align: center;
 }
 
 h1 {
-    color: #001c55;
+    color: #36413E;
     width: 1000px;
-    background-color: rgb(245, 96, 64);
+    background-color: #2F97C1;
     border-radius: 5em;
-    box-shadow: 3px 3px 10px rgb(56, 55, 55);
+    box-shadow: 3px 3px 10px #383737;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 h2 {
-    color: #001c55;
+    color: #29302e;
     width: 1000px;
-    background-color: rgb(190, 143, 132);
+    background-color: #8D6A9F;
     border-radius: 5em;
     box-shadow: 3px 3px 10px rgb(56, 55, 55);
     margin-left: 10%;
