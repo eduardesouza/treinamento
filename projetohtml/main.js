@@ -8,6 +8,14 @@ function bloco2(){
     document.getElementById('divSegunda').style.display = 'inline'
 }
 
+function popup() {
+    document.getElementById('popup').style.display = 'inline'
+}
+
+function fechar() {
+    document.getElementById('popup').style.display = 'none'
+}
+
 var teste = 0
 setInterval(piscar, 300)
 function piscar(){
