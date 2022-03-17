@@ -76,12 +76,12 @@ button {
 }
 
 .btnsJogadores-1 {
-    background-color: #405de6;
+    background-color: #001c55;
 }
 
 .btnsJogadores-1:hover {
-    background: #93c2eb;
-    color: #405de6;
+    background: #001c5531;
+    color: #001c55cb;
     box-shadow: inset 0 0 0 3px #405de6;
 }
 
