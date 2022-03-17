@@ -8,11 +8,11 @@ function bloco2(){
     document.getElementById('divSegunda').style.display = 'inline'
 }
 
-function popup() {
+function abrePopupCR7() {
     document.getElementById('popup').style.display = 'inline'
 }
 
-function fechar() {
+function fechaPopupCR7() {
     document.getElementById('popup').style.display = 'none'
 }
 
