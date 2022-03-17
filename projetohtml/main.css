@@ -10,7 +10,17 @@ h1 {
     width: 1000px;
     background-color: rgb(245, 96, 64);
     border-radius: 5em;
-    box-shadow: 3px 3px 10px black;
+    box-shadow: 3px 3px 10px rgb(56, 55, 55);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h2 {
+    color: #001c55;
+    width: 1000px;
+    background-color: rgb(190, 143, 132);
+    border-radius: 5em;
+    box-shadow: 3px 3px 10px rgb(56, 55, 55);
     margin-left: 10%;
     margin-right: 10%;
 }
